@@ -1,0 +1,163 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Comienzo del Header y Nav */
+.contenedor-grid {
+    width: 50%;
+}
+
+
+
+/* Comienzo del Main */
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: roww;
+    gap: 1px;
+    width: 300px;
+}
+
+
+
+/* Aplicando css al Carrito */
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carrito-producto {
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    margin: 10px;
+    color: black;
+    padding: 20px;
+    padding-right: 1.5rem;
+    cursor: default;
+}
+
+.card-img-top {
+    height: 15rem;
+}
+
+.carrito-producto-imagen {
+
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.carrito-producto small {
+    font-size: .85;
+}
+
+.carrito-producto-eliminar {
+    border: 0;
+    background-color: transparent;
+    color: rgb(141, 11, 11);
+}
+
+.carrito-acciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito-acciones-vaciar {
+    background-color: red;
+    ;
+    padding: 0.5rem;
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.carrito-acciones-derecha {
+    display: flex;
+
+}
+
+.carrito-acciones-total {
+    display: flex;
+    background-color:black;
+    padding: 1rem;
+    color:white;
+    margin: 20px;
+
+}
+
+.carrito-acciones-comprar {
+
+    background-color:black;
+    padding: 1rem;
+    color: white;
+    margin: 20px;
+    font-weight: 400;
+}
+
+.carrito-comprado {
+    margin-left: 500px;
+    color: black;
+    font-size: 2em;
+}
+
+.carrito-vacio {
+    margin: 20px;
+    color: black
+}
+
+.disabled {
+    display: none;
+}
+
+
+
+
+.producto-encargar {    border-radius: 20px;
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 7px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.producto-encargar {    color: blue;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
